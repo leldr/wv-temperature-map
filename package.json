@@ -16,7 +16,6 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "Test Being Omitted",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
