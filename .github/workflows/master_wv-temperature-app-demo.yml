@@ -87,7 +87,7 @@ jobs:
         id: deploy-to-webapp
         uses: azure/webapps-deploy@v3
         with:
-          app-name: 'wv-temperature-app-demo'
+          app-name: 'wv-temp-app'
           # The name of the Azure Web App to deploy to.
           slot-name: 'Production'
           # Specifies the deployment slot (default is `Production`).
