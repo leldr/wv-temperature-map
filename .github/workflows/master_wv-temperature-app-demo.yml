@@ -78,9 +78,9 @@ jobs:
         # Logs in to Azure using credentials stored in GitHub Secrets.
         uses: azure/login@v2
         with:
-          client-id: ${{ secrets.AZUREAPPSERVICE_CLIENTID_A6B273D646C04F0B91821283B6C81448 }}
-          tenant-id: ${{ secrets.AZUREAPPSERVICE_TENANTID_A6D1591D941B4411B30CBD08F6178E33 }}
-          subscription-id: ${{ secrets.AZUREAPPSERVICE_SUBSCRIPTIONID_82A5D27922A94A9A8543B2D906F47AF2 }}
+          client-id: ${{ secrets.AZUREAPPSERVICE_CLIENTID_7C5B4F7E2F2546A3AB07123A9D31CDAF }}
+          tenant-id: ${{ secrets.AZUREAPPSERVICE_TENANTID_C7D09754A4E44F9AAE9E9D0557F6F3E9 }}
+          subscription-id: ${{ secrets.AZUREAPPSERVICE_SUBSCRIPTIONID_98615FE4D0324600AC83C7FD1AB27065 }}
 
       - name: 'Deploy to Azure Web App'
         # Deploys the app to the Azure Web App.
