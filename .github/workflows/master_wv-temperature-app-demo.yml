@@ -31,14 +31,12 @@ jobs:
 
       - name: Install and Build Frontend
         run: |
-          cd frontend
           npm install
           npm run build
         working-directory: ./frontend
 
       - name: Install and Build Backend
         run: |
-          cd backend
           npm install
         working-directory: ./backend
 
